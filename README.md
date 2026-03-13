@@ -652,3 +652,20 @@ product-owner → 产品负责人（主入口，协调其他角色）
 ---
 
 > **本文档持续更新中**。随着框架的使用和迭代，新的设计决策和优化会持续补充到本文档中。
+
+---
+
+## 附录：依赖说明
+
+### Skills 依赖（可选）
+
+工作手册中引用了以下 Skills，可根据需要安装：
+
+| Skill | 用途 | 安装命令 |
+| ----- | ---- | -------- |
+| context7 | 查询技术文档、API 参考 | `npx skills add context7` |
+| docx | 生成 Word 格式文档 | `npx skills add docx` |
+| pdf | 生成 PDF 格式文档 | `npx skills add pdf` |
+| planner | 生成实施计划 | `npx skills add planner` |
+
+**说明**：这些是 Qoder 系统级 Skills，产品需求小组的核心功能不依赖这些 Skills，但安装后可以增强输出能力。
